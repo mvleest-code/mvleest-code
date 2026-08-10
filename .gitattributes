@@ -1,0 +1,7 @@
+# Keep repository text files consistent across operating systems
+* text=auto
+
+# GitHub renders these files directly; always store and check them out as LF
+*.md text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf

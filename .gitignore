@@ -1,0 +1,42 @@
+# Local Codex working files and generated deliverables
+/work/
+/outputs/
+/.codex/
+/.agents/
+
+# Local history, environment and secrets
+/.lh/
+.history/
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Editor settings and temporary files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.tmp
+*.bak
+
+# Python caches and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node dependencies, if tools are used locally
+node_modules/
+
+# Logs
+*.log
+*.log.*
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
